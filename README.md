@@ -1,11 +1,10 @@
-
 News Chrome Extension
-Stay informed with the latest news right from your Chrome browser! This Chrome extension fetches real-time news updates using Python and a news API, providing a seamless and customizable news browsing experience.
+Stay updated with the latest news directly from your Chrome browser! This Chrome extension, built with JavaScript, HTML, and CSS, leverages a news API to provide real-time news articles and headlines at your fingertips.
 
 Features
-Real-time Updates: Get the latest news articles and headlines directly in your Chrome browser.
-Customizable Categories: Tailor your news feed by selecting specific categories of interest.
-User-Friendly Interface: Enjoy a clean and intuitive interface for a hassle-free news reading experience.
+Live Updates: Receive the latest news articles and headlines in real-time.
+User-Friendly Interface: Enjoy a clean and intuitive design for a seamless news reading experience.
+Customization: Tailor your news feed by selecting specific categories of interest.
 Installation
 Clone the repository:
 
@@ -23,18 +22,18 @@ The News Chrome Extension icon will appear in your Chrome toolbar.
 Usage
 Click on the News Chrome Extension icon in the toolbar.
 Customize your news feed preferences.
-Stay updated with the latest news directly in your browser!
+Stay informed with the latest news directly in your browser!
 Configuration
-Adjust the extension's settings by modifying the config.py file. Customize your preferred news categories, API key, or any other relevant parameters.
+Modify the config.js file to customize your extension. You can set your preferred news categories, API key, and other relevant parameters.
 
-python
+javascript
 Copy code
-# config.py
+// config.js
 
-NEWS_API_KEY = "your_api_key_here"
-NEWS_CATEGORIES = ["technology", "business", "science", "entertainment"]
+const API_KEY = 'your_api_key_here';
+const NEWS_CATEGORIES = ['technology', 'business', 'science', 'entertainment'];
 Contributing
-If you'd like to contribute to the development of this Chrome extension, please follow these steps:
+If you'd like to contribute to the development of this Chrome extension, follow these steps:
 
 Fork the repository.
 Create a new branch for your feature: git checkout -b feature-name.
