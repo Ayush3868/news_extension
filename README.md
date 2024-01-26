@@ -10,7 +10,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/news-chrome-extension.git
+git clone(https://github.com/Ayush3868/news_extension/blob/main)
 Open Chrome and navigate to chrome://extensions/.
 
 Enable Developer mode.
